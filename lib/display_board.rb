@@ -8,4 +8,4 @@ def display_board(**args)
 end
 
 display_board(tl: "X")
-p board[0]
+puts board[0]
