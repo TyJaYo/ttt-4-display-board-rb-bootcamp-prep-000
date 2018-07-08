@@ -2,7 +2,7 @@
 # out the current state.
 board = {}
 
-def display_board(tl: " ")
+def display_board(tl: "s")
   board = [:tl]
   puts " #{board[0]}"
 end
