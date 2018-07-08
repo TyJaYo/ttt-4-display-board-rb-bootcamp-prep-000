@@ -2,7 +2,7 @@
 # out the current state.
 
 def display_board(*args)
-  board = [tl: args[0], tm: args[1]]
+  board = [tl: args[0]]
   puts " #{:tl}"
 end
 
