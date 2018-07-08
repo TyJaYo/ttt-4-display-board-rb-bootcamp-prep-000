@@ -3,9 +3,7 @@
 
 ROWLINE = "\n-----------\n"
 
-def display_board(ary)
-  blank_board = [" "," "," "," "," "," "," "," "," "]
-  b = blank_board.merge!(ary)
+def display_board(b = [" "," "," "," "," "," "," "," "," "])
   row_num = 1
   b.each_index do |i|
     unless row_num == 5
