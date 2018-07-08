@@ -4,8 +4,11 @@
 blank_board = [" "," "," "," "," "," "," "," "," "]
 def display_board(ary)
   b = blank_board.merge!(ary)
+  row_num = 1
   b.each do |s|
-    if 
+    unless row_num % 3 == 0
+      unless 
+    
   print " #{b[0]} "
 end
 
