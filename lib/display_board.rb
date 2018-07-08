@@ -1,9 +1,10 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
+board = {}
+
 def display_board(*args)
   spot = 1
-  board = {}
   args.each do |a|
      board[spot] = a 
      spot += 1
