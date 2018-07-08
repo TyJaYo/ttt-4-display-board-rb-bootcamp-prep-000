@@ -3,8 +3,9 @@
 
 def display_board(*args)
   spot = 1
+  board = {}
   args.each do |a|
-     board { spot => a }
+     board[spot] = a 
      spot += 1
    end
   puts " #{tl}"
