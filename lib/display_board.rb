@@ -7,5 +7,5 @@ def display_board(tl: " ", tm: " ", tr: " ", ml: " ", mm: " ", mr: " ", bl: " ",
   puts " #{tl}"
 end
 
-display_board(tl: "X")
+display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
 puts board
