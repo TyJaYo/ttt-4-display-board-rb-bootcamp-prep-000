@@ -3,7 +3,7 @@
 board = {}
 
 def display_board(tl: " ")
-  board = [tl: args[0]]
+  board = [:tl]
   puts " #{board[:tl]}"
 end
 
