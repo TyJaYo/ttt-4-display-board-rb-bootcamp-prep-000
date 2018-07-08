@@ -2,7 +2,7 @@
 # out the current state.
 
 blank_board = [" "," "," "," "," "," "," "," "," "]
-def row = "-----------"
+def row; row = "-----------"
 
 def display_board(ary)
   b = blank_board.merge!(ary)
