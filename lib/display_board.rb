@@ -30,7 +30,7 @@ def display_board(ary)
   end
 end
 
-puts display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
+display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
 
 # def display_board(ary)
 #  spot = 1
