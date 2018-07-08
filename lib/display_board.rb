@@ -6,8 +6,7 @@ ROWLINE = "\n-----------\n"
 def display_board(b = [" "," "," "," "," "," "," "," "," "])
   row_num = 1
   b.each_index do |i|
-    puts i 
-    puts b[i]
+    puts i + ":"
     unless row_num == 5
       unless row_num % 2 == 0
         unless (i + 1) % 3 == 0
