@@ -8,7 +8,7 @@ def display_board(ary)
      board[spot] = a 
      spot += 1
    end
-   return board
+   print " #{board[1"
 end
 
 puts display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
