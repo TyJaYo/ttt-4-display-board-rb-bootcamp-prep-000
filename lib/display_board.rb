@@ -7,4 +7,4 @@ def display_board(*args)
 end
 
 display_board("X")
-p display_board[0]
+p board[0]
