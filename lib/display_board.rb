@@ -1,9 +1,12 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-blank_board = 
+blank_board = [" "," "," "," "," "," "," "," "," "]
 def display_board(ary)
- print " #{ary[0]} "
+  b = blank_board.merge!(ary)
+  b.each do |s|
+    if 
+  print " #{b[0]} "
 end
 
 puts display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
