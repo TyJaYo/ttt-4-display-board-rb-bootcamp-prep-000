@@ -5,4 +5,5 @@ def display_board(tl: " ", tm: " ", tr: " ", ml: " ", mm: " ", mr: " ", bl: " ",
   puts " #{:tl}"
 end
 
+display_board("X")
 p display_board[0]
