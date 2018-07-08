@@ -4,7 +4,7 @@ board = {}
 
 def display_board(tl: "s")
   board = [:tl]
-  puts " #{board[0]}"
+  puts " #{tl}"
 end
 
 display_board(tl: "X")
