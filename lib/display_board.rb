@@ -3,15 +3,15 @@
 
 def display_board(*args)
   spot = 1
-  $board = {}
+  board = {}
   args.each do |a|
      board[spot] = a 
      spot += 1
    end
+   return board
 end
 
-display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
-puts board
+puts display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
 
 #   board = [:tl, :tm, :tr, :ml, :mm, :mr, :bl, :bm, :br]
 # tl: " ", tm: " ", tr: " ", ml: " ", mm: " ", mr: " ", bl: " ", bm: " ", br: " "
