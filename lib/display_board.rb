@@ -4,7 +4,7 @@ board = {}
 
 def display_board(**args)
   board = [tl: args[0]]
-  puts " #{:tl}"
+  puts " #{board[:tl]}"
 end
 
 display_board(tl: "X")
