@@ -8,7 +8,6 @@ def display_board(*args)
      board[spot] = a 
      spot += 1
    end
-  puts " #{tl}"
 end
 
 display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
