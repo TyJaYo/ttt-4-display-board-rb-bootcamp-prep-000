@@ -2,16 +2,18 @@
 # out the current state.
 
 def display_board(ary)
-  spot = 1
-  board = {}
-  ary.each do |a|
-     board[spot] = a 
-     spot += 1
-   end
-   print " #{board[1"
+ print " #{ary[0]} "
 end
 
 puts display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
 
+# def display_board(ary)
+#  spot = 1
+#  board = {}
+#  ary.each do |a|
+#     board[spot] = a 
+#     spot += 1
+#   end
+# end
 #   board = [:tl, :tm, :tr, :ml, :mm, :mr, :bl, :bm, :br]
 # tl: " ", tm: " ", tr: " ", ml: " ", mm: " ", mr: " ", bl: " ", bm: " ", br: " "
