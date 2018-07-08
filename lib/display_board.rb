@@ -1,10 +1,10 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-blank_board = [" "," "," "," "," "," "," "," "," "]
 ROWLINE = "\n-----------\n"
 
 def display_board(ary)
+  blank_board = [" "," "," "," "," "," "," "," "," "]
   b = blank_board.merge!(ary)
   row_num = 1
   b.each_index do |i|
