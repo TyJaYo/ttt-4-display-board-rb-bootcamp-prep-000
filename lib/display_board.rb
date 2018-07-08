@@ -2,7 +2,7 @@
 # out the current state.
 board = {}
 
-def display_board(**args)
+def display_board(tl: " ")
   board = [tl: args[0]]
   puts " #{board[:tl]}"
 end
