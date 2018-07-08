@@ -28,7 +28,7 @@ def display_board(b = [" "," "," "," "," "," "," "," "," "])
   end
 end
 
-display_board(["O", "O", "O", "O", "O", "O", "O", "O", "O"])
+display_board(["1", "2", "3", "4", "5", "6", "7", "8", "9"])
 
 # def display_board(ary)
 #  spot = 1
