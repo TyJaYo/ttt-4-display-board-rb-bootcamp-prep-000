@@ -2,8 +2,8 @@
 # out the current state.
 board = {}
 
-def display_board(tl: " ", tm: " ", :tr, :ml, :mm, :mr, :bl, :bm, :br)
-  board = [:tl]
+def display_board(tl: " ", tm: " ", tr: " ", ml: " ", mm: " ", mr: " ", bl: " ", bm: " ", br: " ")
+  board = [:tl, :tm, :tr, :ml, :mm, :mr, :bl, :bm, :br]
   puts " #{tl}"
 end
 
