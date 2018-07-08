@@ -2,12 +2,15 @@
 # out the current state.
 
 blank_board = [" "," "," "," "," "," "," "," "," "]
+def row = "-----------"
+
 def display_board(ary)
   b = blank_board.merge!(ary)
   row_num = 1
-  b.each do |s|
+  b.each_index do |i|
     unless row_num % 3 == 0
-      unless 
+      unless (i + 1) % 3 == 0
+        print
     
   print " #{b[0]} "
 end
