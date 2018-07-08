@@ -7,5 +7,5 @@ def display_board(**args)
   puts " #{:tl}"
 end
 
-display_board("X")
+display_board(tl: "X")
 p board[0]
